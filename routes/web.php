@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('/artikel', function () {
     $nama = 'Julian Haruntama';
     return view('artikel',['nama' => $nama]);
