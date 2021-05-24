@@ -3,8 +3,8 @@
 @section('title','Artikel')
 
 @section('container')
+
 <div class='container'>
-  <br>
     <div>
     <h5>DAFTAR ISI</h5>
       <ol>
@@ -129,4 +129,8 @@
     </p> 
   </div>
 </div>
+<br>
+<br>
+<br>
+
 @endsection

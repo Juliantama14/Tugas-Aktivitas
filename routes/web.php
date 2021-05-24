@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home0215');
 });
 
 Route::get('/contact', function () {
@@ -22,6 +22,5 @@ Route::get('/contact', function () {
 });
 
 Route::get('/artikel', function () {
-    $nama = 'Julian Haruntama';
-    return view('artikel',['nama' => $nama]);
+    return view('artikel');
 });
